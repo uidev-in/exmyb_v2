@@ -1,0 +1,31 @@
+:root{
+    --text-color: #242424;
+    --text-color-secondary: #515151;
+    --green: #11A64A;
+    --dark-green:#056336;
+    --blue:#1774FF;
+    --dark-blue:#175CC3;
+    --white:#ffffff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--text-color);
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* Footer */

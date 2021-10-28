@@ -23,9 +23,231 @@ body {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
+    color: #5c727d;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
-
+p {
+    color: #5c727d;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
 
 /* Footer */
+.footer-top-area {
+    padding-top: 92px;
+    padding-bottom: 20px;
+}
+.section-bg-1 {
+    background-color: #f2f6f7;
+}
+.plr--5 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.footer-widget {
+    margin-bottom: 60px;
+}
+.footer-logo {
+    position: relative;
+    top: -10px;
+}
+.site-logo {
+    min-width: 185px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.footer-address ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-address ul li {
+    list-style: none;
+    display: block;
+    margin-top: 8px;
+}
+.footer-address ul li .footer-address-icon {
+    float: left;
+    margin-right: 15px;
+}
+.footer-address ul li .footer-address-icon i{
+    color:#5c727d;
+}
+.footer-address ul li .footer-address-info {
+    overflow: hidden;
+}
+.footer-address ul li:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.ltn__social-media ul {
+    margin: 0;
+    padding: 0;
+}
+.ltn__social-media ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.footer-widget {
+    margin-bottom: 60px;
+}
+.footer-widget .footer-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.footer-menu ul li:hover a {
+    padding-left: 20px;
+}
+.footer-menu ul li a {
+    position: relative;
+    color: #5c727d;
+    text-decoration: none;
+}
+.footer-menu ul li a:hover{color: #0a9a73;}
+.footer-menu ul li:hover a::before {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+}
+.footer-menu ul li a::before {
+    position: absolute;
+    content: "//";
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -20px;
+    color: #0A9A73;
+}
+
+.footer-newsletter form {
+    position: relative;
+}
+.footer-newsletter input[type="email"] {
+    margin: 0;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #e4ecf2;
+    height: 65px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #5C727D;
+    width: 100%;
+    border-radius: 0;
+    padding-right: 50px;
+    
+}
+.footer-widget > h5{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer-newsletter .btn-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100%;
+}
+.footer-newsletter .btn-wrapper .btn {
+    padding: 0 18px;
+    height: 100%;
+}
+.btn:last-child {
+    margin-right: 0;
+}
+.btn {
+    border-radius: 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--ltn__heading-font);
+    padding: 17px 35px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+    margin-right: 15px;
+}
+.theme-btn-1 {
+    background-color: #0A9A73;
+    color: #ffffff;
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.ltn__copyright-area {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.ltn__copyright-design p {
+    color: #fff;
+}
+.plr--5 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-bg-7 {
+    background-color: #171b2a;
+}
+.text-end {
+    text-align: right!important;
+}
+.ltn__copyright-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.ltn__copyright-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: var(--ltn__heading-font);
+    font-weight: 600;
+}
+.ltn__copyright-menu ul li a {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}

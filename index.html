@@ -4,9 +4,297 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
     <title>ExMyB</title>
+    <style>
+        .hero-section{
+            height: 500px;
+            background: #11A64A;
+        }
+        .nav-link{
+         color: #000 !important;
+        }
+        .hero-bottom{
+            background: #056336;
+            height: 50px;
+            text-align: center;
+            color: #fff;
+            padding-top: 15px;
+        }
+
+
+        /*tab css*/
+
+ .nav-tabs {
+    border-bottom: 2px
+ solid rgba(108,117,125,.2);
+}
+/*.nav-tabs .nav-item {
+    margin-bottom: -2px;
+}*/
+/*.nav-tabs>li>a {
+    color: #4b4b5a;
+    font-weight: 700;
+}*/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs li a.active {
+    border-bottom: 2px solid #11A64A!important;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.nav-tabs li a {
+    border-color: transparent!important;
+    padding: 0.625rem1.25rem;
+}
+.nav-tabs .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+ /* end tab css*/
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+}
+.pseudo-search {
+  display: inline;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 15px;
+  transition: background-color 0.5 ease-in-out;
+}
+.pseudo-search input {
+  border: 0;
+  background-color: transparent;
+  width: 315px;
+}
+.pseudo-search input:focus {
+  outline: none;
+}
+.pseudo-search button,
+.pseudo-search i {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.pseudo-search select {
+  border: none;
+}
+.form-search-btn{
+ margin-top: 30px;
+    width: 105px;
+    border: 1px solid #11a64a;
+    background: #11a64a;
+    color: #fff;
+    padding: 4px 25px;
+    border-radius: 25px;
+}
+
+
+/*payment section css*/
+.payment-section{
+    height: 550px;
+    margin: 110px 0px;
+
+  
+}
+.payment-section .row{
+      background: #11A64A;
+    border-radius: 30px;
+}
+
+.payment-title h2{
+        font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 450px;
+}
+.payment-title p{
+        font-size: 17px;
+    font-weight: 400;
+    margin-top: 18px;    
+}
+.payment-title .learn-more-title{
+    position: absolute;
+    left: 70px;
+    bottom: 90px;
+    color: #fff;
+}
+.payment-title h2,p{
+ color: #fff;
+}
+.payment-lock{
+    background: #f2f2f2;
+    padding: 30px 70px;
+    border-radius: 30px;
+    margin-right: 0px !important;
+}
+.img-section{
+    text-align: center;
+    background: #fff;
+    padding: 115px 20px;
+
+}
+.img-section img{
+    width: 250px;
+}
+
+
+
+    </style>
 </head>
 <body>
-    
+
+<!-- nav section start -->
+
+<nav class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm">
+  <div class="container">
+    <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="exmyb_logo.svg" width="110" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+      <!-- <span class="text-uppercase font-weight-bold text-dark">Company</span> -->
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- nav section end -->
+
+
+
+<!-- Hero section start -->
+
+<section class="hero-section pt-5">
+
+    <div class="container"> 
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mt-4">
+                                    <div class="card-body">
+                                       
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a href="#home" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    <span class="d-block d-sm-none"><i class="uil-home-alt"></i></span>
+                                                    <span class="d-none d-sm-block">Apps & Website</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#profile" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    <span class="d-block d-sm-none"><i class="uil-user"></i></span>
+                                                    <span class="d-none d-sm-block">Digital Marketing</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#messages" data-toggle="tab" aria-expanded="false" class="nav-link">
+                                                    <span class="d-block d-sm-none"><i class="uil-envelope"></i></span>
+                                                    <span class="d-none d-sm-block">Designing</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content p-3 text-muted">
+                                            <div class="tab-pane active text-center pt-3" id="home">
+                                              <h2 ><strong>Find developers here</strong></h2>
+                                              <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
+
+                                              <form class="mt-4 text-center">
+                                                
+                                                  <div class="pseudo-search ">
+                                                    <input type="text" placeholder="Search..." autofocus required> 
+                                                    <i class="fa fa-globe places"></i>
+                                                    <i class="fa fa-search ml-2" ></i>
+                                                  </div>
+
+                                                  <button class="btn form-search-btn">Search</button>
+
+                                                </form>
+                                            </div>
+
+                                            <div class="tab-pane show" id="profile">
+                                                <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                                                    In enim </p>
+                                              
+                                            </div>
+                                            <div class="tab-pane" id="messages">
+                                                <p>Vakal text here dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                                                    Nulla consequat massa quis enim.</p>
+                                                <p class="mb-0">Donec pede justo, fringilla vel, aliquet nec, vulputate
+                                                    eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                                                    justo. Nullam dictum felis eu pede mollis pretium. Integer
+                                                    tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean
+                                                    vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+                                                    consequat vitae, eleifend ac, enim.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        </div>
+      </div>
+    </div>        
+
+</section>
+<div class="hero-bottom">
+   <p>Book a free consultation with our experts -></p> 
+</div>
+
+<!-- Hero section end -->
+
+
+<!-- payment section -->
+
+<section class="payment-section mb-5 ">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6 payment-lock">
+                <div class="img-section">
+                    <img src="payment-lock.png" class="img-fluid" />
+                </div>
+             </div>
+
+             <div class="col-md-6">
+                 <div class="payment-title p-5" >
+                     <h2>Payment <br> Security</h2>
+                     <p>pellentesque eu, pretium quis, sem.
+                        Nulla consequat massa quis enim. consequat massa quis enim.</p>
+  
+                    <a href="" class="learn-more-title">Learn More <i class="fa fa-arrow-right "></i></a>
+                 </div>
+
+             </div>
+        </div>
+    </div>
+</section>
+
+   
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+ 
+</script>
 </body>
 </html>

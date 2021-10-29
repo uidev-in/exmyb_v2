@@ -16,17 +16,6 @@
     color: #000;
 }
 
-.hero-bottom {
-    background: #056336;
-    height: 60px;
-    text-align: center;
-    color: #fff;
-    line-height: 60px;
-}
-.hero-bottom p{
-    font-size: 20px;
-    font-weight: 500;
-}
 /*tab css*/
 
 .nav-tabs {
@@ -38,7 +27,6 @@
     color: #11a64a;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
-    font-weight: 600;
 }
 
 .nav-tabs li a.active {
@@ -106,6 +94,51 @@ form {
     padding: 4px 25px;
     border-radius: 25px;
 }
+
+/* Shine */
+    .hero-bottom {
+        background: #056336;
+        height: 60px;
+        text-align: center;
+        color: #fff;
+        line-height: 60px;
+    }
+    .hero-bottom p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+  .shine {
+    font-size: 3em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  
+  .hero-bottom .shine {
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 150px;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-background-clip: text;
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+  @-webkit-keyframes shine {
+    0%, 10% {
+      background-position: -1000px;
+    }
+    20% {
+      background-position: top left;
+    }
+    90% {
+      background-position: top right;
+    }
+    100% {
+      background-position: 1000px;
+    }
+  }
 
 
 /*payment section css*/

@@ -49,6 +49,12 @@ p {
     margin-top: 30px !important;
 }
 
+.section-title{
+    color: var(--text-color)!important;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 50px;
+}
 
 /* Navbar */
 .solid-btn {
@@ -268,4 +274,43 @@ p {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
+}
+
+
+/* Scrollbar */
+/* ::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #82C424;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-light .navbar-toggler{
+        border-color: #fff;
+    }
+    .section-title{
+        font-size: 28px;
+    }
 }

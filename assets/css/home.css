@@ -178,7 +178,7 @@
 
 .divide-div .objective {
     background: #11A64A;
-    border-radius: 25px;
+    border-radius: 20px;
     height: 80vh;
     /* align-items: center; */
 }
@@ -212,7 +212,7 @@
 .payment-lock {
     background: #ffffff;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 25px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -345,18 +345,20 @@
 }
 
 .pp-content p {
-    font-size: 18px;
+    font-size: 26px;
     color: #11A64A;
-    margin-top: 20px;
+    margin-bottom: 25px;
 
 }
 .pp-content h2 {
     font-weight: 600;
     font-size: 2.75rem;
+    padding-bottom: 50px;
 }
 
 .post-project-section .img-fluid {
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 .post-project-section .solid-btn {
@@ -539,7 +541,14 @@ color: #fff;
 
 @media only screen and (max-width: 600px) {
     .pseudo-search input {
-        width: 215px;
+        width: 250px;
+    }
+    .search-title{
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+    .form-search{
+        padding-bottom: 15px;
     }
     .hero-bottom p{
         font-size: 16px;
@@ -581,52 +590,9 @@ color: #fff;
     }
 
     input[type="search"] + label:before {
-    left: -175px;
+    left: -220px;
    }
 
 
-/*     .divide-div .objective-title {
-        font-size: 30px;
-        font-weight: 700;
-        margin-top: 50px;
-        width: auto;
-    }
-
-    .divide-div {
-        height: auto;
-        margin: 110px 0px;
-    }
-
-
-    .divide-div .learn-more-title {
-        bottom: 10px;
-    }
-
-    .carousel-section {
-        height: auto;
-        padding-bottom: 30px;
-    }
-
-    .carousel-section .slide-bg {
-        padding: 13px 35px;
-    }
-
-    .carousel-section img {
-        width: 40px;
-    }
-
-    .carousel-section h2 {
-        font-size: 19px;
-    }
- */
-
-
-    h1 {
-        font-size: 19px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
 }
 

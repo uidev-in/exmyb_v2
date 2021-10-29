@@ -313,4 +313,7 @@ p {
     .section-title{
         font-size: 28px;
     }
+    .navbar-nav{
+        flex-direction: inherit;
+    }
 }

@@ -46,7 +46,7 @@
     <section class="hero-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="card mt-4">
                         <div class="card-body px-1">
                             <ul class="nav nav-tabs nav-justified">
@@ -74,7 +74,7 @@
                                     <h2 class="text-dark"><strong>Find developers here</strong></h2>
                                     <p class="text-mute">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
 
-                                     <form>
+                                     <form class="mt-4">
                                         <div class="pseudo-search ">
                                         <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
                                             <label for="brand-filter" data-icon="&#128269;"></label>
@@ -129,29 +129,107 @@
                                         <button class="btn form-search-btn solid-btn">Search</button>
                                     </form> -->
                                 </div>
-                                <div class="tab-pane text-center show" id="profile">
+                                <div class="tab-pane text-center show pt-3" id="profile">
                                     <h2 class="text-dark"><strong>Find developers here</strong></h2>
                                     <p class="text-mute">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
-                                    <form class="mt-4 text-center">
+
+                                     <form class="mt-4">
                                         <div class="pseudo-search ">
-                                            <input type="text" placeholder="Search..." autofocus required>
-                                            <i class="fa fa-globe places"></i>
-                                            <i class="fa fa-search ml-2"></i>
+                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
+                                            <label for="brand-filter" data-icon="&#128269;"></label>
                                         </div>
-                                        <button class="btn form-search-btn solid-btn">Search</button>
-                                    </form>
+                                            <datalist id="brands-list">
+                                              <select >
+                                              <option value="Adidas" />
+                                              <option value="Alexander McQueen" />
+                                              <option value="Armani" />
+                                              <option value="Balenciaga" />
+                                              <option value="Burberry" />
+                                              <option value="Calvin Klein" />
+                                              <option value="Comme Des Garcons" />
+                                              <option value="Diesel" />
+                                              <option value="DKNY" />
+                                              <option value="Dolce & Gabbana" />
+                                              <option value="Dries Van Noten" />
+                                              <option value="Etro" />
+                                              <option value="Fred Perry" />
+                                              <option value="Hugo Boss" />
+                                              <option value="Helmet Lang" />
+                                              <option value="Jil Sander" />
+                                              <option value="Louis Vuitton" />
+                                              <option value="Marc Jacobs" />
+                                              <option value="Margaret Howell" />
+                                              <option value="Marni" />
+                                              <option value="Missoni" />
+                                              <option value="Moncler" />
+                                              <option value="Nike" />
+                                              <option value="Paul Smith" />
+                                              <option value="Prada" />
+                                              <option value="Puma" />
+                                              <option value="Raf Simons" />
+                                              <option value="Rag & Bone" />
+                                              <option value="Rick Owens" />
+                                              <option value="Sacai" />
+                                              <option value="Stone Island" />
+                                              <option value="Yohji Yamamoto" />
+                                              </select>
+                                            </datalist>
+                                          </form>
+                                        <div class="text-center ">
+                                          <button class="btn form-search-btn solid-btn ">Search</button>
+                                        </div>
+
                                 </div>
-                                <div class="tab-pane text-center" id="messages">
-                                    <h2 class="text-dark"><strong>Find developers here</strong></h2>
+                                <div class="tab-pane text-center pt-3" id="messages">
+                                   <h2 class="text-dark"><strong>Find developers here</strong></h2>
                                     <p class="text-mute">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
-                                    <form class="mt-4 text-center">
+
+                                     <form class="mt-4">
                                         <div class="pseudo-search ">
-                                            <input type="text" placeholder="Search..." autofocus required>
-                                            <i class="fa fa-globe places"></i>
-                                            <i class="fa fa-search ml-2"></i>
+                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
+                                            <label for="brand-filter" data-icon="&#128269;"></label>
                                         </div>
-                                        <button class="btn form-search-btn solid-btn">Search</button>
-                                    </form>
+                                            <datalist id="brands-list">
+                                              <select >
+                                              <option value="Adidas" />
+                                              <option value="Alexander McQueen" />
+                                              <option value="Armani" />
+                                              <option value="Balenciaga" />
+                                              <option value="Burberry" />
+                                              <option value="Calvin Klein" />
+                                              <option value="Comme Des Garcons" />
+                                              <option value="Diesel" />
+                                              <option value="DKNY" />
+                                              <option value="Dolce & Gabbana" />
+                                              <option value="Dries Van Noten" />
+                                              <option value="Etro" />
+                                              <option value="Fred Perry" />
+                                              <option value="Hugo Boss" />
+                                              <option value="Helmet Lang" />
+                                              <option value="Jil Sander" />
+                                              <option value="Louis Vuitton" />
+                                              <option value="Marc Jacobs" />
+                                              <option value="Margaret Howell" />
+                                              <option value="Marni" />
+                                              <option value="Missoni" />
+                                              <option value="Moncler" />
+                                              <option value="Nike" />
+                                              <option value="Paul Smith" />
+                                              <option value="Prada" />
+                                              <option value="Puma" />
+                                              <option value="Raf Simons" />
+                                              <option value="Rag & Bone" />
+                                              <option value="Rick Owens" />
+                                              <option value="Sacai" />
+                                              <option value="Stone Island" />
+                                              <option value="Yohji Yamamoto" />
+                                              </select>
+                                            </datalist>
+                                          </form>
+                                        <div class="text-center ">
+                                          <button class="btn form-search-btn solid-btn ">Search</button>
+                                        </div>
+
                                 </div>
                             </div>
                         </div>

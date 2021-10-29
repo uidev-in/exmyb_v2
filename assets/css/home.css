@@ -516,8 +516,8 @@ input[type="search"] + label {
 }
 input[type="search"] + label:before {
   position: absolute;
-  content: 'Search...';
-  left: -280px;
+  /*content: 'Search...';*/
+  /*left: -280px;*/
   width: 180px;
   color: #ccc;
   /*font: bold 14px/20px "Arial", sans-serif;*/
@@ -531,7 +531,7 @@ input[type="search"] + label:after {
 
 input[type="search"]:focus::-webkit-input-placeholder {
   font-weight: normal;
-  color: #fff;
+  color: #ccc;
 }
 input[type="search"]:focus::-moz-input-placeholder {
   font-weight: normal;

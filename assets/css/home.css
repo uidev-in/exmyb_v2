@@ -68,6 +68,7 @@ form {
     border: 0;
     background-color: transparent;
     width: 315px;
+    color: #607d8b;
 }
 
 .pseudo-search input:focus {
@@ -93,6 +94,20 @@ form {
     color: #fff;
     padding: 4px 25px;
     border-radius: 25px;
+}
+
+.ui-menu::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ui-menu::-webkit-scrollbar-thumb {
+    background: #ced6e0;
+    border-radius: 10px;
+
+}
+
+.ui-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
 }
 
 /* Shine */
@@ -514,12 +529,13 @@ input[type="search"] + label {
 }
 input[type="search"] + label:before {
   position: absolute;
-  /*content: 'Search...';*/
-  /*left: -280px;*/
+  content: 'Search...';
+  left: -280px;
   width: 180px;
   color: #ccc;
   /*font: bold 14px/20px "Arial", sans-serif;*/
   text-align: left;
+  cursor:text;
 }
 input[type="search"] + label:after {
   margin-left: 7px;
@@ -583,11 +599,12 @@ input[type="search"]:valid + label {
 }
 .ui-autocomplete li a:hover {
 color: #fff;
- /*font-weight: 400;*/
+ font-weight: 600;
 }
 .ui-autocomplete li a {
   display: block;
   padding: 0 12px;
   cursor: pointer;
-
+  text-decoration: none;
+  font-weight: 500;
 }

@@ -195,10 +195,8 @@ form {
 
 }
 .carousel-section {
-    height: 500px;
+    height: 80vh;
     background: #F6F6F6;
-    /*padding-top: 50px;*/
-
 }
 
 .carousel-section p {

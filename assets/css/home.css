@@ -108,6 +108,12 @@
     pointer-events: none;
     max-height: 280px;
     overflow-y: auto;
+    position: absolute;
+    background: #fff;
+    width: 540px;
+    z-index: 2;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
   
   .search-input.active .autocom-box{

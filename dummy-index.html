@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExMyB</title>
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/home.css"/>
+
+    <style type="text/css">
+ .hero-section{
+    display: inherit;
+ }
+ .third-hero-slide .slide-bg{
+    background: #98c7aa  !important;
+ }
+ .second-hero-slide .slide-bg{
+
+ }
+ .hero-section .slide-bg {
+    background: #fff;
+    padding: 13px 35px;
+}
+
+
+.wrapper .search-input{
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+
+.search-input input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.search-input.active input{
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input.active .autocom-box li{
+  display: block;
+}
+.autocom-box li:hover{
+  background: #efefef;
+}
+
+.search-input .icon{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #644bff;
+  cursor: pointer;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-lg py-3 navbar-light shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="assets/img/exmyb_logo.svg" width="110" alt="" class="d-inline-block align-middle mr-2">
+                <!-- Logo Text -->
+                <!-- <span class="text-uppercase font-weight-bold text-dark">Company</span> -->
+            </a>
+           <!--  <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button> -->
+            <div  class="">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link solid-btn">Signup</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero section start -->
+    <section class="hero-section">
+
+
+      <div class="hero-slider-section" style="overflow: hidden;position: relative; padding-top: 100px;">
+        <div class="first-hero-slide slider-part" style="display: none;">
+           <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+
+
+
+        <div class="second-hero-slide slider-part" style="display: none;">
+           <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="third-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+
+
+
+        <div class="third-hero-slide slider-part mt-5">
+           <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="third-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="mad dresser-01.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+
+     </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-md-8">
+                  <div class="hero-card-section" style="position: absolute; top: -370px; width: 100%;">
+                    <div class="card mt-4">
+                        <div class="card-body px-1">
+                            <ul class="nav nav-tabs nav-justified">
+                                <li class="nav-item">
+                                    <a href="#home" data-toggle="tab" aria-expanded="false" class="nav-link active"  data-url="first-hero-slide">
+                                        <span class="d-block d-sm-none"><i class="fab fa-firefox-browser"></i></span>
+                                        <span class="d-none d-sm-block">Apps & Website</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#profile" data-toggle="tab" aria-expanded="true" class="nav-link" data-url="second-hero-slide">
+                                        <span class="d-block d-sm-none"><i class="fas fa-bullhorn"></i></span>
+                                        <span class="d-none d-sm-block">Digital Marketing</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#messages" data-toggle="tab" aria-expanded="false" class="nav-link" data-url="third-hero-slide">
+                                        <span class="d-block d-sm-none"><i class="fas fa-drafting-compass"></i></span>
+                                        <span class="d-none d-sm-block">Designing</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content p-3 text-muted">
+                                <div class="tab-pane active text-center pt-3" id="home">
+                                    <h2 class="text-dark"><strong>Find developers here</strong></h2>
+                                    <p class="text-mute">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
+
+                                     <form class="mt-4">
+                                        <div class="pseudo-search ">
+                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
+                                            <label for="brand-filter" data-icon="&#128269;"></label>
+                                        </div>
+                                            <datalist id="brands-list">
+                                              <select >
+                                              <option value="Adidas" />
+                                              <option value="Alexander McQueen" />
+                                              <option value="Armani" />
+                                              <option value="Balenciaga" />
+                                              <option value="Burberry" />
+                                              <option value="Calvin Klein" />
+                                              <option value="Comme Des Garcons" />
+                                              <option value="Diesel" />
+                                              <option value="DKNY" />
+                                              <option value="Dolce & Gabbana" />
+                                              <option value="Dries Van Noten" />
+                                              <option value="Etro" />
+                                              <option value="Fred Perry" />
+                                              <option value="Hugo Boss" />
+                                              <option value="Helmet Lang" />
+                                              <option value="Jil Sander" />
+                                              <option value="Louis Vuitton" />
+                                              <option value="Marc Jacobs" />
+                                              <option value="Margaret Howell" />
+                                              <option value="Marni" />
+                                              <option value="Missoni" />
+                                              <option value="Moncler" />
+                                              <option value="Nike" />
+                                              <option value="Paul Smith" />
+                                              <option value="Prada" />
+                                              <option value="Puma" />
+                                              <option value="Raf Simons" />
+                                              <option value="Rag & Bone" />
+                                              <option value="Rick Owens" />
+                                              <option value="Sacai" />
+                                              <option value="Stone Island" />
+                                              <option value="Yohji Yamamoto" />
+                                              </select>
+                                            </datalist>
+                                          </form>
+                                        <div class="text-center ">
+                                          <button class="btn form-search-btn solid-btn ">Search</button>
+                                        </div>
+
+                                   <!--  <form class="mt-4 text-center">
+                                        <div class="pseudo-search ">
+                                            <input type="text" placeholder="Search..." autofocus required>
+                                            <i class="fa fa-globe places"></i>
+                                            <i class="fa fa-search ml-2"></i>
+                                        </div>
+                                        <button class="btn form-search-btn solid-btn">Search</button>
+                                    </form> -->
+                                </div>
+                                <div class="tab-pane text-center show pt-3" id="profile">
+                                    <h2 class="text-dark"><strong>Find developers here</strong></h2>
+                                    <p class="text-mute">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
+
+                                     <form class="mt-4">
+                                      <div class="wrapper">
+                                          <div class="search-input">
+                                            <a href="" target="_blank" hidden></a>
+                                            <input type="text" placeholder="Type to search..">
+                                            <div class="autocom-box">
+                                              <!-- here list are inserted from javascript -->
+                                            </div>
+                                            <div class="icon"><i class="fas fa-search"></i></div>
+                                          </div>
+                                        </div>
+                                          </form>
+                                        <div class="text-center ">
+                                          <button class="btn form-search-btn solid-btn ">Search</button>
+                                        </div>
+
+                                </div>
+                                <div class="tab-pane text-center pt-3" id="messages">
+                                   <h2 class="text-dark"><strong>Find developers here</strong></h2>
+                                    <p class="text-mute">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
+
+                                     <form class="mt-4">
+                                        <div class="pseudo-search ">
+                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
+                                            <label for="brand-filter" data-icon="&#128269;"></label>
+                                        </div>
+                                            <datalist id="brands-list">
+                                              <select >
+                                              <option value="Adidas" />
+                                              <option value="Alexander McQueen" />
+                                              <option value="Armani" />
+                                              <option value="Balenciaga" />
+                                              <option value="Burberry" />
+                                              <option value="Calvin Klein" />
+                                              <option value="Comme Des Garcons" />
+                                              <option value="Diesel" />
+                                              <option value="DKNY" />
+                                              <option value="Dolce & Gabbana" />
+                                              <option value="Dries Van Noten" />
+                                              <option value="Etro" />
+                                              <option value="Fred Perry" />
+                                              <option value="Hugo Boss" />
+                                              <option value="Helmet Lang" />
+                                              <option value="Jil Sander" />
+                                              <option value="Louis Vuitton" />
+                                              <option value="Marc Jacobs" />
+                                              <option value="Margaret Howell" />
+                                              <option value="Marni" />
+                                              <option value="Missoni" />
+                                              <option value="Moncler" />
+                                              <option value="Nike" />
+                                              <option value="Paul Smith" />
+                                              <option value="Prada" />
+                                              <option value="Puma" />
+                                              <option value="Raf Simons" />
+                                              <option value="Rag & Bone" />
+                                              <option value="Rick Owens" />
+                                              <option value="Sacai" />
+                                              <option value="Stone Island" />
+                                              <option value="Yohji Yamamoto" />
+                                              </select>
+                                            </datalist>
+                                          </form>
+                                        <div class="text-center ">
+                                          <button class="btn form-search-btn solid-btn ">Search</button>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hero-bottom">
+        <p class="shine">Book a free consultation with our experts <i class="fas fa-arrow-right ml-2"></i></p>
+    </div>
+    <!-- Hero section end -->
+
+    <!-- payment section -->
+    <section class="payment-section divide-div">
+        <div class="container ">
+            <div class="row objective">
+                <div class="col-md-6 payment-lock">
+                    <div class="img-section">
+                        <img src="assets/img/payment-secure.gif" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="payment-title p-5">
+                        <h2 class="objective-title">Payment <br> Security</h2>
+                        <p class="objective-desc">pellentesque eu, pretium quis, sem.
+                            Nulla consequat massa quis enim. consequat massa quis enim.</p>
+                        <a href="" class="learn-more-title">Learn More <i class="fa fa-arrow-right "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Clients  carousel-section -->
+    <section class="carousel-section mb-5">
+        <div class="container h-100">
+            <div class="row ">
+                <div class="container rounded">
+                    <h2 class="text-center section-title">Trusted Clients</h2>
+                    <p>pretium quis, sem.
+                        Nulla consequat massa quis enim. consequat massa quis enim</p>
+                    <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/amys.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/clove_dental.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/CBRE.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/fedex_express_logo.png" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/amys.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/clove_dental.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/CBRE.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/fedex_express_logo.png" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/pizza_hut_logo.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/jio_logo.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/Fortis_logo.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/uber_logo.png" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/pizza_hut_logo.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/jio_logo.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/Fortis_logo.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/uber_logo.png" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- project management section -->
+    <section class="project-management-section divide-div mb-5 ">
+        <div class="container ">
+            <div class="row objective">
+                <div class="col-md-6">
+                    <div class="payment-title p-5">
+                        <h2 class="objective-title">Project <br> Management</h2>
+                        <p class="objective-desc">pellentesque eu, pretium quis, sem.
+                            Nulla consequat massa quis enim. consequat massa quis enim.</p>
+                        <a href="" class="learn-more-title">Learn More <i class="fa fa-arrow-right "></i></a>
+                    </div>
+                </div>
+
+                 <div class="col-md-6 project-management-right-section">
+                    <!-- <div class="img-section">
+                        <img src="payment-lock.png" class="img-fluid" />
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- verified-agencies section -->
+    <section class="varified-agencies-section divide-div mb-5 ">
+        <div class="container ">
+            <div class="row objective">
+                <div class="col-md-6 varified-agencies-left-section">
+                   <!--  <div class="img-section">
+                        <img src="varified-agencies-lock.png" class="img-fluid" />
+                    </div> -->
+                </div>
+                <div class="col-md-6">
+                    <div class="varified-agencies-title p-5">
+                        <h2 class="objective-title">Verified <br> Agencies</h2>
+                        <p class="objective-desc">pellentesque eu, pretium quis, sem.
+                            Nulla consequat massa quis enim. consequat massa quis enim.</p>
+                        <a href="" class="learn-more-title">Learn More <i class="fa fa-arrow-right "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial-section -->
+    <section class="testimonial-section divide-div">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">What our client says</h2>
+            <div class="row pt-5 pb-5">
+                <div class="col-md-3">
+                    <img src="https://image.freepik.com/free-photo/jolly-excited-handsome-male-specialist-working-with-tablet-looking-camera_1262-14260.jpg"
+                        class="img-fluid" />
+                </div>
+
+                <div class="col-md-6">
+                    <p class="client-says">Nulla consequat massa quis enim. consequat massa quis enim. Nulla consequat massa quis enim.</p>
+                    <h3 class="client-name">Client Name</h3>
+                </div>
+
+            </div>
+
+            <div class="row pb-5 pt-5">
+                <div class="col-md-3 offset-md-3">
+                    <img src="https://image.freepik.com/free-photo/jolly-excited-handsome-male-specialist-working-with-tablet-looking-camera_1262-14260.jpg"
+                        class="img-fluid" />
+                </div>
+
+                <div class="col-md-6">
+                    <p class="client-says">Nulla consequat massa quis enim. consequat massa quis enim. Nulla consequat massa quis enim.</p>
+                    <h3 class="client-name">Client Name</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- post-project-section -->
+    <hr>
+    <section class="divide-div">
+        <div class="container post-project-section mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4" >
+                    <img src="https://image.freepik.com/free-photo/jolly-excited-handsome-male-specialist-working-with-tablet-looking-camera_1262-14260.jpg"  class="img-fluid" />
+                </div>
+
+                <div class="col-md-9 text-center pp-content">
+                  <p>Get Started Today</p>
+                  <h2>Nulla consequat massa quis enim.<br> consequat massa quis enim.</h2>
+                </div>
+
+                <div class="text-center col-md-12 mt-4"><button class=" solid-btn">Post Project</button></div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- footer section -->
+
+ <footer class="ltn__footer-area  ">
+        <div class="footer-top-area  section-bg-1 plr--5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                        <div class="footer-widget footer-about-widget">
+                            <div class="footer-logo">
+                                <div class="site-logo">
+                                    <img class="img-fluid" src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/images/exmyb_logo.png" alt="Logo" style="width:160px">
+                                </div>
+                            </div>
+                            <!-- <p>Expand My Business is India's first dedicated B2B service procurement platform.</p>
+                             -->
+                            <div class="footer-address">
+                                <ul>
+                                    <li>
+                                        <div class="footer-address-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="footer-address-info">
+                                            <p>GoWork - 108, Udyog Vihar Phase 1, Gurugram, Haryana 122016</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-address-icon">
+                                            <i class="fas fa-phone-volume"></i>
+                                        </div>
+                                        <div class="footer-address-info">
+                                            <p><a href="tel:+918882102246">+91 8882102246</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-address-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="footer-address-info">
+                                            <p><a href="mailto:contact@exmyb.com">contact@exmyb.com</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ltn__social-media mt-20">
+                                <ul>
+                                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#" title="Youtube"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-sm-6 col-12">
+                        <div class="footer-widget footer-menu-widget clearfix">
+                            <h4 class="footer-title">Company</h4>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="javascript:void(0);">About</a></li>
+                                    <li><a href="javascript:void(0);">Blog</a></li>
+                                    <li><a href="javascript:void(0);">Services</a></li>
+                                    <li><a href="javascript:void(0);">Carrer</a></li>
+                                    <li><a href="javascript:void(0);">Locations Map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-sm-6 col-12">
+                        <div class="footer-widget footer-menu-widget clearfix">
+                            <h4 class="footer-title">For Partners</h4>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="javascript:void(0);">My Account</a></li>
+                                    <li><a href="javascript:void(0);">Register</a></li>
+                                    <li><a href="javascript:void(0);">FAQ</a></li>
+                                    <li><a href="javascript:void(0);">Support</a></li>
+                                    <li><a href="javascript:void(0);">Terms &amp; Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-sm-6 col-12">
+                        <div class="footer-widget footer-menu-widget clearfix">
+                            <h4 class="footer-title">Help</h4>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="javascript:void(0);">Login</a></li>
+                                    <li><a href="javascript:void(0);">Register</a></li>
+                                    <li><a href="javascript:void(0);">FAQ</a></li>
+                                    <li><a href="javascript:void(0);">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12 col-12">
+                        <div class="footer-widget footer-newsletter-widget">
+                            <h4 class="footer-title">Newsletter</h4>
+                            <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+                            <div class="footer-newsletter">
+                                <form action="#">
+                                    <input type="email" name="email" placeholder="Email*">
+                                    <div class="btn-wrapper">
+                                        <button class="theme-btn-1 btn" type="submit"><i class="fas fa-location-arrow"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <h5 class="mt-30">We Accept</h5>
+                            <img class="img-fluid" src="https://maelectrics.com/tf/html/vicodin-preview/vicodin/img/icons/payment-4.png" alt="Payment Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ltn__copyright-area ltn__copyright-2 section-bg-7  plr--5">
+            <div class="container-fluid ltn__border-top-2">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="ltn__copyright-design clearfix">
+                            <p>All Rights Reserved @ Mantarav Private Limited <span class="current-year">2021</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 align-self-center">
+                        <div class="ltn__copyright-menu text-end">
+                            <ul>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Claim</a></li>
+                                <li><a href="#">Privacy &amp; Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+   <script src="assets/js/main.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        // This demo uses jQuery UI Autocomplete
+// https://jqueryui.com/autocomplete
+
+// Cannot style datalist elements yet, so get
+// each option value and pass to jQuery UI Autocomplete
+$('input[data-list]').each(function () {
+  var availableTags = $('#' + $(this).attr("data-list")).find('option').map(function () {
+    return this.value;
+  }).get();
+
+  $(this).autocomplete({
+    source: availableTags
+  }).on('focus', function () {
+    $(this).autocomplete('search', ' ');
+  }).on('search', function () {
+    if ($(this).val() === '') {
+      $(this).autocomplete('search', ' ');
+    }
+  });
+});
+
+
+ $(".nav.nav-tabs li a").click(function(){
+    var dataVl = $(this).data("url");
+     console.log('fxdgcfhvjbknlm----------->',dataVl)
+     $('.first-hero-slide').hide()
+     $('.second-hero-slide').hide()
+     $('.third-hero-slide').hide()
+     var myclass = "." + dataVl;
+       $(myclass).show()
+
+              // $(".hero-bg-img").css("background-image", "url('"+$(this).data("url")+"')");
+            });
+    </script>
+</body>
+
+</html>

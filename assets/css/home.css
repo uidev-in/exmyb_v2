@@ -50,10 +50,25 @@
     width: 100%;
 }
 
-/* end tab css*/
+/* Hero slider */
+.hero-section{
+    display: inherit;
+ }
+ .third-hero-slide .slide-bg{
+    background: #98c7aa  !important;
+ }
+
+ .hero-section .slide-bg {
+    background: #fff;
+    padding: 13px 35px;
+}
+
+/* Search Card */
+
 .search-card{
     box-shadow: 0px 0px 40px #0000002E!important;
     border-radius: 15px!important;
+    margin-top: -20px;
 }
 .search-title{
     font-size: 50px;
@@ -62,43 +77,85 @@
 .search-sub-title{
     color: #7A7979;
 }
-.form-search{
-    padding-bottom: 30px;
-    display: inline-block;
+
+.wrapper .search-input{
+    background: #fff;
+    width: 75%;
     margin: 0 auto;
-}
-.search-btn{
-    padding-bottom: 30px;
-}
-.pseudo-search {
-    display: inline;
-    border: 1px solid #B6B6B6;
-    border-radius: 100px;
-    padding: 10px 15px;
-    transition: background-color 0.5 ease-in-out;
-}
-
-.pseudo-search input {
-    border: 0;
-    background-color: transparent;
-    width: 460px;
-    color: #607d8b;
-}
-
-.pseudo-search input:focus {
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px 30px -10px #d5dbed;
+  }
+  
+  .search-input input{
+    height: 55px;
+    width: 100%;
     outline: none;
-}
-
-.pseudo-search button,
-.pseudo-search i {
     border: none;
-    background: none;
+    border-radius: 50px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0 6px 30px -10px #d5dbed;
+  }
+  
+  .search-input.active input{
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  
+  .search-input.active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .autocom-box li{
+    list-style: none;
+    padding: 8px 15px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    text-align: left;
+    color: #a4b0be;
+  }
+  
+  .search-input.active .autocom-box li{
+    display: block;
+  }
+  .autocom-box li:hover{
+    background: #caffde40;
+  }
+  
+  .search-input .icon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #056336;
     cursor: pointer;
-}
+  }
 
-.pseudo-search select {
-    border: none;
-}
+.search-input input[type="text"]{
+    color: #a4b0be;
+    font-weight: 500;
+    font-size: 16px;
+  }  
+.search-input input[type="text"]::placeholder {
+    color: #ced6e0;
+    font-size: 15px;
+} 
 
 .form-search-btn {
     margin-top: 30px;
@@ -370,11 +427,11 @@
     border-radius: 30px;
 }
 
-.varified-agencies-left-section {
+/* .varified-agencies-left-section {
     background: #056336;
     border-radius: 30px;
 
-}
+} */
 
 /*Testimonial*/
 
@@ -425,153 +482,6 @@
 /*Home custom css*/
 
 
- @import url(http://weloveiconfonts.com/api/?family=entypo);
-
-[data-icon]:after {
-  font-family: "entypo";
-  content: attr(data-icon);
-  speak: none;
-}
-/*input[type="search"] {
-  width: 196px;
-  height: 36px;
-  padding: 0;
-  line-height: 32px;
-  background: #56e2c9;
-  color: #fff;
-  border: 0;
-  font: bold 14px/20px "Arial", sans-serif;
-  text-indent: 12px;
-  outline: none;
-  -webkit-appearance: textfield;
-}*/
-/*{
-    border: 0;
-    background-color: transparent;
-    width: 315px;
-}
-{
-display: inline;
-border: 2px solid #ccc;
-border-radius: 100px;
-padding: 10px 15px;
-}*/
-input[type="search"]::-webkit-input-placeholder {
-  color: transparent;
-}
-input[type="search"]::-moz-input-placeholder {
-  color: transparent;
-}
-input[type="search"]:-ms-input-placeholder {
-  color: transparent;
-}
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
-  -webkit-appearance: none;
-  width: 32px;
-  height: 32px;
-  line-height: 30px;
-  color: white;
-  text-align: left;
-  cursor: pointer;
-}
-input[type="search"]::-webkit-search-cancel-button:before, input[type="search"]::-webkit-search-results-button:before, input[type="search"]::-webkit-search-results-decoration:before {
-  position: absolute;
-  content: 'x';
-  font-style: normal;
-}
-input[type="search"]:invalid {
-  border: 0 !important;
-}
-input[type="search"]:invalid::-webkit-search-cancel-button:before, input[type="search"]:invalid::-webkit-search-results-button:before, input[type="search"]:invalid::-webkit-search-results-decoration:before {
-  font-family: "entypo";
-  content: attr(data-icon);
-}
-input[type="search"] + label {
-  position: absolute;
-  margin: 1px 0 0 -25px;
-  cursor: pointer;
-}
-input[type="search"] + label:before {
-  position: absolute;
-  content: 'Search...';
-  left: -430px;
-  width: 180px;
-  color: #B6B6B6;
-  /*font: bold 14px/20px "Arial", sans-serif;*/
-  text-align: left;
-  cursor:text;
-}
-input[type="search"] + label:after {
-  margin-left: 7px;
-  color: #B6B6B6;
-  content: '\25BE';
-}
-
-input[type="search"]:focus::-webkit-input-placeholder {
-  font-weight: normal;
-  color: #B6B6B6;
-}
-input[type="search"]:focus::-moz-input-placeholder {
-  font-weight: normal;
-  color: #fff;
-}
-input[type="search"]:focus:-ms-input-placeholder {
-  font-weight: normal;
-  color: #fff;
-}
-input[type="search"]:focus:invalid + label:before {
-  display: none;
-}
-input[type="search"]:focus:invalid + label:after {
-  margin-left: 4px;
-  content: attr(data-icon);
-}
-input[type="search"]:valid + label {
-  display: none;
-}
-
-.ui-autocomplete {
-  width: 190px;
-  max-height: 180px;
-  padding: 0;
-  margin: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  background: #ffff;
-  color: #fff;
-  border-width: 1px 1px 1px 1px;
-  border-style: solid;
-  border-color: #B6B6B6!important;
-}
-.ui-autocomplete ul {
-  list-style: none;
-}
-.ui-autocomplete li {
-  height: 36px;
-  margin: 0;
-  font: bold 14px/36px Arial, Helvetica, sans-serif;
-  white-space: nowrap;
-}
-.ui-autocomplete li:hover {
-  -moz-transition: background 0.3s ease-in;
-  -o-transition: background 0.3s ease-in;
-  -webkit-transition: background 0.3s ease-in;
-  transition: background 0.3s ease-in;
-  background: #11a64a;;
-  color: #fff;
-  /*font-weight: 400;*/
-}
-.ui-autocomplete li a:hover {
-color: #fff;
- font-weight: 600;
-}
-.ui-autocomplete li a {
-  display: block;
-  padding: 0 12px;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: 500;
-}
 
 
 
@@ -627,9 +537,6 @@ color: #fff;
         font-size: 1.25rem;
     }
 
-    input[type="search"] + label:before {
-    left: -220px;
-   }
 
 
 }

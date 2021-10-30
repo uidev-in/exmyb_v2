@@ -313,6 +313,7 @@
     width: 100%;
     display: inline-block;
     margin: 0px 0;
+    opacity: 0.8;
 }
 
 .first-slide .slider .logos .fab {
@@ -349,6 +350,7 @@
     width: 100%;
     display: inline-block;
     margin: 0px 0;
+    opacity: 0.8;
 }
 
 .second-slide .slider .logos .fab {
@@ -386,6 +388,7 @@
     width: 100%;
     display: inline-block;
     margin: 0px 0;
+    opacity: 0.8;
 }
 
 .third-slide .slider .logos .fab {
@@ -415,9 +418,8 @@
 
 
 .slide-bg {
-    background: #fff;
+    /* background: #fff; */
     padding: 13px 45px;
-    /*margin: 0 20px;*/
     display: inline-block;
     border-radius: 10px;
     margin-right: 60px;

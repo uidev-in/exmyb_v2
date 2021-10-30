@@ -89,3 +89,19 @@ function showSuggestions(list){
     }
     suggBox.innerHTML = listData;
 }
+
+
+
+// for hero section bg image change
+
+ $(".nav.nav-tabs li a").click(function(){
+    var dataVl = $(this).data("url");
+     console.log('fxdgcfhvjbknlm----------->',dataVl)
+     $('.first-hero-slide').hide()
+     $('.second-hero-slide').hide()
+     $('.third-hero-slide').hide()
+     var myclass = "." + dataVl;
+       $(myclass).show()
+
+              // $(".hero-bg-img").css("background-image", "url('"+$(this).data("url")+"')");
+            });

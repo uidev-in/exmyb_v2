@@ -499,6 +499,10 @@
     .pseudo-search input {
         width: 250px;
     }
+    .search-card{
+        margin-right: 25px;
+        margin-top: -40px;
+    }
     .search-title{
         font-size: 26px;
         padding-bottom: 10px;
@@ -530,11 +534,12 @@
     }
 
     .carousel-section .slide-bg {
-        padding: 13px 35px;
+        /* padding: 13px 35px; */
+        margin-right: -48px;
     }
 
     .carousel-section img {
-        width: 40px;
+        width: 60px;
     }
 
     .carousel-section .section-title {

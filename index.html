@@ -20,8 +20,11 @@
     <link rel="stylesheet" href="assets/css/home.css"/>
 
     <style type="text/css">
-
-       </style>
+        #stickytypeheader {
+            width: 100%;
+            z-index: 1;
+        }
+    </style>
 
 </head>
 
@@ -327,22 +330,22 @@
                         <div class="slider mt-5">
                             <div class="logos">
                                 <div class="slide-bg">
-                                    <img class="" src="assets/img/design_tools_icon/AdobeSpark-Export-01.svg" width="120" />
+                                    <img class="" src="assets/img/design_tools_icon/AdobeSpark.svg" width="120" />
                                 </div>
                                 <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/AdobeSpark-save-01.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/AdobeXD.svg" width="120" />
                                 </div>
                                 <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/AdobeLightRoom-Colour.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/AfterEffects.svg" width="120" />
                                 </div>
                                 <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/AdobeSpark-Colour.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/AnimateCC.svg" width="120" />
                                 </div>
                                  <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/AdobeXD_colour.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/CorelDraw.svg" width="120" />
                                 </div>
                                  <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/AnimateCC-Colour.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/Illustrator.svg" width="120" />
                                 </div>
                             </div>
                             <div class="logos">
@@ -371,13 +374,13 @@
                         <div class="slider mt-5">
                             <div class="logos">
                                 <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/3dsMax.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/Inkscape.svg" width="120" />
                                 </div>
                                 <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/AutoCAd.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/Lightroom.svg" width="120" />
                                 </div>
                                 <div class="slide-bg">
-                                    <img src="assets/img/design_tools_icon/Canva.svg" width="120" />
+                                    <img src="assets/img/design_tools_icon/Pixlr.svg" width="120" />
                                 </div>
                                 <div class="slide-bg">
                                     <img src="assets/img/design_tools_icon/CoralDraw-Colour.svg" width="120" />
@@ -567,7 +570,7 @@
             </div>
         </div>
     </section>
-    <div class="hero-bottom">
+    <div class="hero-bottom" id="stickytypeheader">
         <p class="shine">Book a free consultation with our experts <i class="las la-arrow-right ml-2"></i></p>
     </div>
     <!-- Hero section end -->
@@ -592,6 +595,7 @@
             </div>
         </div>
     </section>
+    
     
     <!--Clients  carousel-section -->
     <section class="carousel-section">
@@ -918,10 +922,20 @@
     <script src="assets/js/main.js" type="text/javascript"></script>
 
     <script id="rendered-js">
-        jQuery(function ($) {
+        $(function(){
             $('.constant-simple-slider,.constant-simple-slider_second').slick({
                 cssEase: 'linear',
                 speed: 10000,
+            });
+
+            var stickyHeaderTop = $('#stickytypeheader').offset().top;
+ 
+            $(window).scroll(function(){
+                    if( $(window).scrollTop() > stickyHeaderTop ) {
+                            $('#stickytypeheader').css({position: 'fixed', top: '0px'});
+                    } else {
+                            $('#stickytypeheader').css({position: 'static', top: '0px'});
+                    }
             });
 
         });

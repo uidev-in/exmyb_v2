@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Mulish:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+  font-family: 'Miriam Libre', sans-serif;
+}
+.bg-col{
+  background-color: #F6F7FA;
+}
+
+.head{
+ margin-top: 100px;
+ left: 240px;
+ width: 521px;
+ height: 83px;
+}
+.contact-nav ul li {
+  font-size:22px;
+  margin-bottom: 25px;
+  list-style: none;
+}
+.email-box{
+  z-index: 99999;
+}
+.contact-info{
+  background-color:#fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+.contact-info p{
+  font-size: 18px;
+}
+
+/* IMG Section */
+
+.customer-care-box{
+  background-size: cover;
+  height: 460px;
+  width: 970px;
+  margin-top:-50px;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* Ofices */
+.ofices{
+  margin-top: 100px;
+  background-color: #F6F7FA;
+}
+
+.ofices img{
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+  }
+  .ofs-img{
+    margin-top:145px;
+    margin-bottom: 40px;
+  }
+  .ofs-con{
+    margin-top:145px;
+    margin-bottom: 40px;
+    width: 450px;
+    height: 250px;
+  }
+  .ofs-con h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 45px;
+  }
+
+  /* Form */
+
+  .custom-btn {
+    border-radius: 30px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    font-size:20px;
+    text-transform: uppercase;
+    
+  }
+
+  /* Media Query */
+  /* @media only screen and (max-width: 400px){
+    
+    .customer-care-box{
+      width: 100%;
+      margin-top: 10px;
+      height: 150px;
+    }
+    .ofices img {
+      width: 100%;
+      height: 125px;
+  }
+  } */
+ 
+@media only screen and (max-width: 600px){
+  
+.navbar-light .navbar-nav .nav-link{
+  margin-right: 10px;
+}
+  .contact-info{
+    margin-bottom: 25px;
+   }
+  .customer-care-box{
+    width: 100%;
+    margin-top: 10px;
+    height: 200px;
+  }
+  .head{
+    width: 350px;
+  }
+  .ofices{
+    margin-top: 10px;
+  }
+  .ofs-img{
+    margin: 30px 0;
+  }
+  .ofices img {
+    width: 100%;
+    height: 175px;
+}
+.ofs-con {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: auto;
+  height: auto;
+}
+.ofs-con h2 {
+  font-size: 2.44rem;
+  line-height: 1.35;
+  padding-top: 0px;
+  text-align: left;
+}
+}

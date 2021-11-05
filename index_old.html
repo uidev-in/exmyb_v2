@@ -15,9 +15,76 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/home.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css">
 
     <style type="text/css">
- 
+
+     .dirbtn {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+}
+.slick-slide {
+    width: 120px;
+    height: 100px;
+}
+.dirbtn:hover {
+  background: #eee;
+  color: #222;
+  cursor: pointer;
+}
+.constant-simple-slider {
+  margin: 0 auto;
+  margin-bottom: 0px !important;
+}
+.constant-simple-slider img {
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  margin: auto;
+}
+.constant-simple-slider .slick-list {
+  margin: 0;
+}
+.constant-simple-slider .slick-prev {
+  left: 0;
+}
+.constant-simple-slider .slick-next {
+  right: 0;
+}
+.constant-simple-slider .slick-prev:before,
+.constant-simple-slider .slick-next:before {
+  color: #222;
+}
+
+
+
+.constant-simple-slider_second {
+  margin: 0 auto;
+  margin-bottom: 0px !important;
+}
+.constant-simple-slider_second img {
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  margin: auto;
+}
+.constant-simple-slider_second .slick-list {
+  margin: 0;
+}
+.constant-simple-slider_second .slick-prev {
+  left: 0;
+}
+.constant-simple-slider_second .slick-next {
+  right: 0;
+}
+.constant-simple-slider_second .slick-prev:before,
+.constant-simple-slider_second .slick-next:before {
+  color: #222;
+}
     </style>
 
 </head>
@@ -45,26 +112,438 @@
 
     <!-- Hero section start -->
     <section class="hero-section">
+
+        <!-- Logo slider -->
+      <div class="hero-slider-section" style="overflow: hidden;position: relative; padding-top: 100px;">
+        <div class="first-hero-slide slider-part">
+           <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                               <div class="slide-bg">
+                                    <img src="assets/img/web_and_app_tools_icons/android.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/web_and_app_tools_icons/apple.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/web_and_app_tools_icons/Flutter.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/web_and_app_tools_icons/Java.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/web_and_app_tools_icons/microsoft.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/web_and_app_tools_icons/React.svg" width="120" />
+                                </div>
+                                
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                     <img src="assets/img/web_and_app_tools_icons/android.svg" width="120" />
+                                 </div>
+                                 <div class="slide-bg">
+                                     <img src="assets/img/web_and_app_tools_icons/apple.svg" width="120" />
+                                 </div>
+                                 <div class="slide-bg">
+                                     <img src="assets/img/web_and_app_tools_icons/Flutter.svg" width="120" />
+                                 </div>
+                                 <div class="slide-bg">
+                                     <img src="assets/img/web_and_app_tools_icons/Java.svg" width="120" />
+                                 </div>
+                                  <div class="slide-bg">
+                                     <img src="assets/img/web_and_app_tools_icons/microsoft.svg" width="120" />
+                                 </div>
+                                 
+                             </div>
+                        </div>
+            </div>
+            <div class="second-slide">
+                <div class="slider mt-5">
+                    <div class="logos">
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/angular.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Kotlin.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/MongoDB.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Python.svg" width="120" />
+                        </div>
+                            <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Shopify.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/MySql.svg" width="120" />
+                        </div>
+                    </div>
+                    <div class="logos">
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/angular.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Kotlin.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/MongoDB.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Python.svg" width="120" />
+                        </div>
+                            <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Shopify.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/MySql.svg" width="120" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-slide">
+                <div class="slider mt-5">
+                    <div class="logos">
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Wordpress.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Shopify.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Php.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Vue.svg" width="120" />
+                        </div>
+                            <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Swift.svg" width="120" />
+                        </div>
+                            <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/MySql.svg" width="120" />
+                        </div>
+                    </div>
+                    <div class="logos">
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Wordpress.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Shopify.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Php.svg" width="120" />
+                        </div>
+                        <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Vue.svg" width="120" />
+                        </div>
+                            <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/Swift.svg" width="120" />
+                        </div>
+                            <div class="slide-bg">
+                            <img src="assets/img/web_and_app_tools_icons/MySql.svg" width="120" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="second-hero-slide slider-part" style="display: none;">
+           <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Ahref.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/facebook.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/gmail.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/GoogleAds.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/GoogleAnalytics.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Hubspot.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Ahref.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/facebook.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/gmail.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/GoogleAds.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/GoogleAnalytics.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Hubspot.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/instagram.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/linkedin.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/MailChimp.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Pintrest.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/reddit.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Semrush.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/instagram.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/linkedin.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/MailChimp.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Pintrest.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/reddit.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Semrush.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="third-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/youtube.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/twitter.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/SEO.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Semrush.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Pintrest.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/reddit.svg" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/youtube.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/twitter.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/SEO.svg" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Semrush.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/Pintrest.svg" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/digital_marketing_tool_icons/reddit.svg" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="third-hero-slide slider-part mt-5" style="display: none;">
+           <div class="first-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/3dsMax.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AdobeSpark.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AfterEffects.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AnimateCC.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AutoCAd.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Canva.png" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/3dsMax.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AdobeSpark.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AfterEffects.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AnimateCC.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AutoCAd.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Canva.png" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/CoralDraw.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Figma.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/illustrator.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/InDesign.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/InkScape.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/LightRoom.png" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/CoralDraw.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Figma.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/illustrator.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/InDesign.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/InkScape.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/LightRoom.png" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="third-slide">
+                        <div class="slider mt-5">
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Xd.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/SparkAR.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Pixlr.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Photoshop.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Figma.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AnimateCC.png" width="120" />
+                                </div>
+                            </div>
+                            <div class="logos">
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Xd.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/SparkAR.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Pixlr.png" width="120" />
+                                </div>
+                                <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Photoshop.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/Figma.png" width="120" />
+                                </div>
+                                 <div class="slide-bg">
+                                    <img src="assets/img/design_tools_icon/AnimateCC.png" width="120" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+      </div>
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="card search-card mt-4">
+                    <div class="hero-card-section" style="">
+                    <div class="card search-card">
                         <div class="card-body px-1">
                             <ul class="nav nav-tabs nav-justified">
                                 <li class="nav-item">
-                                    <a href="#home" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                    <a href="#home" data-toggle="tab" aria-expanded="false" class="nav-link active" data-url="first-hero-slide">
                                         <span class="d-block d-sm-none"><i class="fab fa-chrome"></i></span>
                                         <span class="d-none d-sm-block">Apps & Website</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#profile" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                    <a href="#profile" data-toggle="tab" aria-expanded="true" class="nav-link"  data-url="second-hero-slide">
                                         <span class="d-block d-sm-none"><i class="fas fa-bullhorn"></i></span>
                                         <span class="d-none d-sm-block">Digital Marketing</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#messages" data-toggle="tab" aria-expanded="false" class="nav-link">
+                                    <a href="#messages" data-toggle="tab" aria-expanded="false" class="nav-link" data-url="third-hero-slide">
                                         <span class="d-block d-sm-none"><i class="fas fa-drafting-compass"></i></span>
                                         <span class="d-none d-sm-block">Designing</span>
                                     </a>
@@ -75,48 +554,19 @@
                                     <h2 class="text-dark search-title"><strong>Find developers here</strong></h2>
                                     <p class="search-sub-title">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
 
-                                     <form class="mt-4 form-search">
-                                        <div class="pseudo-search ">
-                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
-                                            <label for="brand-filter" data-icon="&#128269;"></label>
+                                    <form class="mt-4 form-search">
+                                        <div class="wrapper">
+                                          <div class="search-input">
+                                            <a href="" target="_blank" hidden></a>
+                                            <input type="text" id="website_service" placeholder="Search App & Website services...">
+                                            <div class="autocom-box" id="website_autocom">
+                                              <!-- here list are inserted from javascript -->
+                                            </div>
+                                            <div class="icon"><i class="fas fa-search"></i></div>
+                                          </div>
                                         </div>
-                                            <datalist id="brands-list">
-                                              <select >
-                                              <option value="Adidas" />
-                                              <option value="Alexander McQueen" />
-                                              <option value="Armani" />
-                                              <option value="Balenciaga" />
-                                              <option value="Burberry" />
-                                              <option value="Calvin Klein" />
-                                              <option value="Comme Des Garcons" />
-                                              <option value="Diesel" />
-                                              <option value="DKNY" />
-                                              <option value="Dolce & Gabbana" />
-                                              <option value="Dries Van Noten" />
-                                              <option value="Etro" />
-                                              <option value="Fred Perry" />
-                                              <option value="Hugo Boss" />
-                                              <option value="Helmet Lang" />
-                                              <option value="Jil Sander" />
-                                              <option value="Louis Vuitton" />
-                                              <option value="Marc Jacobs" />
-                                              <option value="Margaret Howell" />
-                                              <option value="Marni" />
-                                              <option value="Missoni" />
-                                              <option value="Moncler" />
-                                              <option value="Nike" />
-                                              <option value="Paul Smith" />
-                                              <option value="Prada" />
-                                              <option value="Puma" />
-                                              <option value="Raf Simons" />
-                                              <option value="Rag & Bone" />
-                                              <option value="Rick Owens" />
-                                              <option value="Sacai" />
-                                              <option value="Stone Island" />
-                                              <option value="Yohji Yamamoto" />
-                                              </select>
-                                            </datalist>
                                           </form>
+
                                         <div class="text-center search-btn">
                                           <button class="btn form-search-btn solid-btn ">Search</button>
                                         </div>
@@ -135,46 +585,16 @@
                                     <p class="search-sub-title">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
 
                                      <form class="mt-4 form-search">
-                                        <div class="pseudo-search ">
-                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
-                                            <label for="brand-filter" data-icon="&#128269;"></label>
+                                        <div class="wrapper">
+                                          <div class="search-input">
+                                            <a href="" target="_blank" hidden></a>
+                                            <input type="text" id="digital_service" placeholder="Search Digital Marketing services...">
+                                            <div class="autocom-box" id="digital_autocom">
+                                              <!-- here list are inserted from javascript -->
+                                            </div>
+                                            <div class="icon"><i class="fas fa-search"></i></div>
+                                          </div>
                                         </div>
-                                            <datalist id="brands-list">
-                                              <select >
-                                              <option value="Adidas" />
-                                              <option value="Alexander McQueen" />
-                                              <option value="Armani" />
-                                              <option value="Balenciaga" />
-                                              <option value="Burberry" />
-                                              <option value="Calvin Klein" />
-                                              <option value="Comme Des Garcons" />
-                                              <option value="Diesel" />
-                                              <option value="DKNY" />
-                                              <option value="Dolce & Gabbana" />
-                                              <option value="Dries Van Noten" />
-                                              <option value="Etro" />
-                                              <option value="Fred Perry" />
-                                              <option value="Hugo Boss" />
-                                              <option value="Helmet Lang" />
-                                              <option value="Jil Sander" />
-                                              <option value="Louis Vuitton" />
-                                              <option value="Marc Jacobs" />
-                                              <option value="Margaret Howell" />
-                                              <option value="Marni" />
-                                              <option value="Missoni" />
-                                              <option value="Moncler" />
-                                              <option value="Nike" />
-                                              <option value="Paul Smith" />
-                                              <option value="Prada" />
-                                              <option value="Puma" />
-                                              <option value="Raf Simons" />
-                                              <option value="Rag & Bone" />
-                                              <option value="Rick Owens" />
-                                              <option value="Sacai" />
-                                              <option value="Stone Island" />
-                                              <option value="Yohji Yamamoto" />
-                                              </select>
-                                            </datalist>
                                           </form>
                                         <div class="text-center search-btn">
                                           <button class="btn form-search-btn solid-btn ">Search</button>
@@ -185,52 +605,23 @@
                                    <h2 class="text-dark search-title"><strong>Find developers here</strong></h2>
                                     <p class="search-sub-title">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
 
-                                     <form class="mt-4 form-search">
-                                        <div class="pseudo-search ">
-                                        <input type="search" id="brand-filter" place placeholder="Search..."   holder="Rechercher..." name="brands" data-list="brands-list" autocomplete="off" required />
-                                            <label for="brand-filter" data-icon="&#128269;"></label>
+                                    <form class="mt-4 form-search">
+                                        <div class="wrapper">
+                                          <div class="search-input">
+                                            <a href="" target="_blank" hidden></a>
+                                            <input type="text" id="design_service" placeholder="Search Design services...">
+                                            <div class="autocom-box" id="design_autocom">
+                                              <!-- here list are inserted from javascript -->
+                                            </div>
+                                            <div class="icon"><i class="fas fa-search"></i></div>
+                                          </div>
                                         </div>
-                                            <datalist id="brands-list">
-                                              <select >
-                                              <option value="Adidas" />
-                                              <option value="Alexander McQueen" />
-                                              <option value="Armani" />
-                                              <option value="Balenciaga" />
-                                              <option value="Burberry" />
-                                              <option value="Calvin Klein" />
-                                              <option value="Comme Des Garcons" />
-                                              <option value="Diesel" />
-                                              <option value="DKNY" />
-                                              <option value="Dolce & Gabbana" />
-                                              <option value="Dries Van Noten" />
-                                              <option value="Etro" />
-                                              <option value="Fred Perry" />
-                                              <option value="Hugo Boss" />
-                                              <option value="Helmet Lang" />
-                                              <option value="Jil Sander" />
-                                              <option value="Louis Vuitton" />
-                                              <option value="Marc Jacobs" />
-                                              <option value="Margaret Howell" />
-                                              <option value="Marni" />
-                                              <option value="Missoni" />
-                                              <option value="Moncler" />
-                                              <option value="Nike" />
-                                              <option value="Paul Smith" />
-                                              <option value="Prada" />
-                                              <option value="Puma" />
-                                              <option value="Raf Simons" />
-                                              <option value="Rag & Bone" />
-                                              <option value="Rick Owens" />
-                                              <option value="Sacai" />
-                                              <option value="Stone Island" />
-                                              <option value="Yohji Yamamoto" />
-                                              </select>
-                                            </datalist>
                                           </form>
+
                                         <div class="text-center search-btn">
                                           <button class="btn form-search-btn solid-btn ">Search</button>
                                         </div>
-
+                                 </div>
                                 </div>
                             </div>
                         </div>
@@ -266,75 +657,109 @@
     </section>
     
     <!--Clients  carousel-section -->
-    <section class="carousel-section mb-5">
+    <section class=" mb-5">
         <div class="container h-100">
             <div class="row ">
                 <div class="container rounded">
                     <h2 class="text-center section-title">Trusted Clients</h2>
                     <p>pretium quis, sem.
                         Nulla consequat massa quis enim. consequat massa quis enim</p>
-                    <div class="first-slide">
-                        <div class="slider mt-5">
-                            <div class="logos">
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/amys.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/clove_dental.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/CBRE.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/fedex_express_logo.png" width="120" />
-                                </div>
-                            </div>
-                            <div class="logos">
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/amys.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/clove_dental.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/CBRE.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/fedex_express_logo.png" width="120" />
-                                </div>
-                            </div>
+                    <div class="constant-simple-slider" id=""
+                        data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "infinite": true, "arrows":false, "autoplay":true, "autoplaySpeed":0, "responsive":[{"breakpoint": 768, "settings":{"slidesToShow":4 }},{"breakpoint": 480, "settings":{"slidesToShow":4 }}]}'>
+                        <div>
+                            <img src="assets/img/trusted_clients/airtel.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/swiggy.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/clove_dental.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/uber.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/proteinX.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fortiz.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fedex.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/freecharge.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fresca.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/indiatoday.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/jio_digital.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/jsw.svg" width="120">
                         </div>
                     </div>
-                    <div class="second-slide">
-                        <div class="slider mt-5">
-                            <div class="logos">
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/pizza_hut_logo.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/jio_logo.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/Fortis_logo.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/uber_logo.png" width="120" />
-                                </div>
-                            </div>
-                            <div class="logos">
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/pizza_hut_logo.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/jio_logo.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/Fortis_logo.png" width="120" />
-                                </div>
-                                <div class="slide-bg">
-                                    <img src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/assets/img/company-logos/uber_logo.png" width="120" />
-                                </div>
-                            </div>
+
+
+
+
+
+
+                    <div class="constant-simple-slider_second" id=""
+                        data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "infinite": true, "arrows":false, "autoplay":true, "autoplaySpeed":0, "responsive":[{"breakpoint": 768, "settings":{"slidesToShow":4 }},{"breakpoint": 480, "settings":{"slidesToShow":4 }}]}'>
+                        <div>
+                            <img src="assets/img/trusted_clients/airtel.svg" width="120">
+                        </div>
+
+                        <div>
+                            <img src="assets/img/trusted_clients/fedex.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/freecharge.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fresca.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/indiatoday.svg" width="120">
+                        </div>
+
+                        <div>
+                            <img src="assets/img/trusted_clients/swiggy.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/clove_dental.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/uber.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/proteinX.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fortiz.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fedex.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/freecharge.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/fresca.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/indiatoday.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/jio_digital.svg" width="120">
+                        </div>
+                        <div>
+                            <img src="assets/img/trusted_clients/jsw.svg" width="120">
                         </div>
                     </div>
                 </div>
@@ -368,10 +793,10 @@
     <section class="varified-agencies-section divide-div mb-5 ">
         <div class="container ">
             <div class="row objective">
-                <div class="col-md-6 varified-agencies-left-section">
-                   <!--  <div class="img-section">
-                        <img src="varified-agencies-lock.png" class="img-fluid" />
-                    </div> -->
+                <div class="col-md-6 payment-lock">
+                    <div class="img-section">
+                        <img src="assets/img/verified_agency.gif" class="img-fluid" />
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="varified-agencies-title p-5">
@@ -423,7 +848,7 @@
         <div class="container post-project-section mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-4" >
-                    <img src="https://image.freepik.com/free-photo/jolly-excited-handsome-male-specialist-working-with-tablet-looking-camera_1262-14260.jpg"  class="img-fluid" />
+                    <img src="assets/img/post_project_cta.svg"  class="img-fluid" />
                 </div>
 
                 <div class="col-md-9 text-center pp-content">
@@ -447,7 +872,7 @@
                         <div class="footer-widget footer-about-widget">
                             <div class="footer-logo">
                                 <div class="site-logo">
-                                    <img class="img-fluid" src="https://django-b2b.s3.amazonaws.com/static/paid_marketing/images/exmyb_logo.png" alt="Logo" style="width:160px">
+                                    <img class="img-fluid" src="assets/img/exmyb_logo.svg" alt="Logo" style="width:160px">
                                 </div>
                             </div>
                             <!-- <p>Expand My Business is India's first dedicated B2B service procurement platform.</p>
@@ -556,7 +981,7 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="ltn__copyright-design clearfix">
-                            <p>All Rights Reserved @ Mantarav Private Limited <span class="current-year">2021</span></p>
+                            <p>All Rights Reserved © Mantarav Private Limited <span class="current-year">2021</span></p>
                         </div>
                     </div>
                     <div class="col-md-6 col-12 align-self-center">
@@ -578,33 +1003,47 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+
+          <script id="rendered-js">
+            jQuery(function ($) {
+              var $s = $('.constant-simple-slider').slick({
+                cssEase: 'linear',
+                speed: 9000,
+                autoPlay: false,
+             
+                pauseOnHover: false });
+
+              $('.gotoright').click(function ($) {
+                $s.slick("setOption", "speed", 1, false);
+              });
+              $('.gotoleft').click(function ($) {
+              });
+            });
 
 
-    <script type="text/javascript">
-        // This demo uses jQuery UI Autocomplete
-// https://jqueryui.com/autocomplete
 
-// Cannot style datalist elements yet, so get
-// each option value and pass to jQuery UI Autocomplete
-$('input[data-list]').each(function () {
-  var availableTags = $('#' + $(this).attr("data-list")).find('option').map(function () {
-    return this.value;
-  }).get();
+              jQuery(function ($) {
+              var $s = $('.constant-simple-slider_second').slick({
+                cssEase: 'linear',
+                speed: 20000,
+                autoPlay: false,
+                slidesToShow: 6,
+                slidesToScroll: 6,
+            
+                pauseOnHover: false });
 
-  $(this).autocomplete({
-    source: availableTags
-  }).on('focus', function () {
-    $(this).autocomplete('search', ' ');
-  }).on('search', function () {
-    if ($(this).val() === '') {
-      $(this).autocomplete('search', ' ');
-    }
-  });
-});
+              $('.gotoright').click(function ($) {
+                $s.slick("setOption", "speed", 1, false);
+              });
+              $('.gotoleft').click(function ($) {
+              });
+            });
+//# sourceURL=pen.js
     </script>
+
 </body>
 
 </html>

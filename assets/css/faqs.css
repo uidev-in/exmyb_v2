@@ -1,0 +1,23 @@
+.breadcrumb{
+  background: #fff;
+  border-radius: 0px;
+  border-bottom: 0.5px solid #ccc;
+  padding: 15px;
+}
+
+.Accordian{
+  margin-bottom: 100px;
+}
+.accordion-button {
+  background: #e7f1ff;
+  border-radius: 5px;
+}
+
+.accordion-body {
+  background: #fff;
+}
+.accordion-button:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}

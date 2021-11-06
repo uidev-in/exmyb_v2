@@ -1,75 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Mulish:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
-body{
-  font-family: 'Miriam Libre', sans-serif;
-}
-.bg-col{
-  background-color: #F6F7FA;
-}
-
+.breadcrum-area{
+  background-color: #f2f6f7;
+} 
 .head{
- margin-top: 100px;
- left: 240px;
- width: 521px;
- height: 83px;
+ margin-top: 7.19rem;
+ padding-bottom: 3.25rem;
+ padding-right: 50%;
+ font-family: 'Josefin Sans', sans-serif;
 }
-.contact-nav ul li {
-  font-size:22px;
-  margin-bottom: 25px;
+.contact-nav ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+.contact-nav ul {display: block;}
+.contact-nav a{
+  position: relative;
+  display: inline-block;
+  color: #7f7f7f;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  text-decoration: none;
+  background-color: #f6f7fa;
+  margin: 20px 0;
+}
+.contact-nav a:hover, .contact-nav a:focus, .contact-nav a.active {
+  position: relative;
+  color: #292929;
+}
+ .contact-nav a:hover:after,  .contact-nav a:focus:after,  .contact-nav a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  width: 150%;
+  background-image: url(https://www.dotperformance.com/assets/images/line.svg);
+  background-repeat: repeat-x;
+}
+
+.contact-info {
+  position: relative;
+  z-index: 3;
+  color: #292929;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  margin-top: 0px;
+  margin-left: 5%;
+  padding: 25px;
+  background-color: #FFF;
+}
+.contact-info a {
+  color: #292929;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 30px;
+}
+.contact-info p.title {
+  color: #4c4c4c;
+  font-size: 1rem;
+  line-height: 1.56;
+  margin-bottom: 40px;
+  padding-right: 32%;
+}
+
+.contact-info .phones {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact-info .phones p {
+  margin-left: 5px;
+}
+.contact-info .phones p a {
+  display: block;
+}
+
 .email-box{
   z-index: 99999;
 }
-.contact-info{
-  background-color:#fff;
-  padding: 25px;
-  border-radius: 10px;
-}
+
 .contact-info p{
   font-size: 18px;
 }
 
 /* IMG Section */
+.team{
+  margin-bottom: 5rem;
+}
 
-.customer-care-box{
+.customer-care-box, .new-business-box{
   background-size: cover;
   height: 460px;
-  width: 970px;
   margin-top:-50px;
   background-position: center;
   border-radius: 10px;
+  background-repeat: no-repeat;
 }
 
 /* Ofices */
 .ofices{
-  margin-top: 100px;
+  padding: 80px 0;
   background-color: #F6F7FA;
 }
 
 .ofices img{
-  width: 450px;
-  height: 250px;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
   border-radius: 10px;
   }
   .ofs-img{
-    margin-top:145px;
     margin-bottom: 40px;
   }
   .ofs-con{
-    margin-top:145px;
     margin-bottom: 40px;
     width: 450px;
-    height: 250px;
   }
   .ofs-con h2{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
     font-size: 45px;
+    font-weight: 600;
   }
 
   /* Form */
+.contact-form{
+  padding: 80px 0;
+}
+.form-card{
+border-radius: 10px;
+box-shadow: 0 0 45px 10px rgb(34 34 34 / 8%);
+}
+.form h2{
+  font-weight: 600;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  color: #5c727d;
+}
+.form-group input{
+  /* color: #ced6e0; */
+}
+.form-control:focus {
+  border-color: #11a64a!important;
+  box-shadow: 0 0 0 0.2rem rgb(244 252 244)!important;
+}
+.form-control::placeholder{
+  font-size: 14px;
+  color: #ced6e0;
+}
 
-  .custom-btn {
+.custom-btn {
     border-radius: 30px;
     background-color: green;
     color: #fff;
@@ -80,35 +167,38 @@ body{
   }
 
   /* Media Query */
-  /* @media only screen and (max-width: 400px){
-    
-    .customer-care-box{
-      width: 100%;
-      margin-top: 10px;
-      height: 150px;
-    }
-    .ofices img {
-      width: 100%;
-      height: 125px;
-  }
-  } */
  
 @media only screen and (max-width: 600px){
   
 .navbar-light .navbar-nav .nav-link{
   margin-right: 10px;
 }
-  .contact-info{
-    margin-bottom: 25px;
-   }
   .customer-care-box{
     width: 100%;
     margin-top: 10px;
     height: 200px;
   }
   .head{
-    width: 350px;
+    width: 100%;
+    padding-right: 0;
+    font-size: 30px;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
   }
+  .contact-nav a{
+    margin:10px 0;
+  }
+  .contact-nav a:hover:after, .contact-nav a:focus:after, .contact-nav a.active:after{
+    display: none;
+  }
+  .contact-info{
+    margin-bottom: 80px;
+    margin-left: 0;
+   }
+   .customer-care-box, .new-business-box{
+     width: 100%;
+     height: 180px;
+   }
   .ofices{
     margin-top: 10px;
   }
@@ -117,7 +207,6 @@ body{
   }
   .ofices img {
     width: 100%;
-    height: 175px;
 }
 .ofs-con {
   margin-top: 30px;
@@ -130,5 +219,8 @@ body{
   line-height: 1.35;
   padding-top: 0px;
   text-align: left;
+}
+.contact-form{
+  padding: 50px 0;
 }
 }

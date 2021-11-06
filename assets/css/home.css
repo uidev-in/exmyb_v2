@@ -573,6 +573,42 @@ margin-right: 55px;
 /* Responsive */
 
 @media only screen and (max-width: 600px) {
+
+    /* BG Slider */
+
+    .first-slide,.second-slide,.third-slide{
+        display: none;
+    }
+
+    /* Search Bar */
+
+    .wrapper .search-input{
+        width: 96%;
+    }
+
+    /* Search Drop Down */
+    .search-input.active .autocom-box{
+        width: 100%;
+    }
+
+    /* Lock Section */
+
+    .payment-lock{
+        min-height: 0vh;
+    }
+    .lock-img{
+        height: 318px;
+    }
+    /* Footer */
+
+    .ltn__copyright-design p{
+        text-align:center;
+        font-size:14px;
+    }
+    .ltn__copyright-menu ul{
+        text-align:center;
+        font-size:12px;
+    }
     .hero-card-section{
         width: auto;
     }
@@ -581,7 +617,7 @@ margin-right: 55px;
     }
     .search-card{
         margin-right: 25px;
-        margin-top: -40px;
+        margin-top: 360px;
     }
     .search-title{
         font-size: 26px;
@@ -619,7 +655,7 @@ margin-right: 55px;
     }
 
     .carousel-section img {
-        width: 60px;
+        width: 77px;
     }
 
     .carousel-section .section-title {

@@ -197,8 +197,8 @@ margin-right: 55px;
         line-height: 60px;
     }
     .hero-bottom p{
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 24px;
+        font-weight: 600;
     }
   .shine {
     font-size: 3em;
@@ -510,6 +510,7 @@ margin-right: 55px;
 .project-management-section .project-management-right-section {
     background: #175CC3;
     border-radius: 30px;
+    padding: 10px;
 }
 
 /* .varified-agencies-left-section {

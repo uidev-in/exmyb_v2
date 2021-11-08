@@ -223,4 +223,12 @@ box-shadow: 0 0 45px 10px rgb(34 34 34 / 8%);
 .contact-form{
   padding: 50px 0;
 }
+
+  /* Footer */
+.ltn__copyright-design p{
+  text-align: center;
+}
+.ltn__copyright-menu ul {
+  text-align: center;
+}
 }

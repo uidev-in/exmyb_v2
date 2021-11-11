@@ -30,7 +30,7 @@
 }
 
 .nav-tabs li a.active {
-    border-bottom: 4px solid #11A64A !important;
+    border-bottom: 1px solid #11A64A !important;
 }
 
 .nav-tabs .nav-link {
@@ -166,7 +166,7 @@ margin-right: 55px;
 
 .form-search-btn {
     margin-top: 30px;
-    width: 105px;
+    width: 120px;
     border: 1px solid #11a64a;
     background: #11a64a;
     color: #fff;
@@ -191,6 +191,7 @@ margin-right: 55px;
 /* Shine */
     .hero-bottom {
         background: #056336;
+        /* background: #242424; */
         height: 60px;
         text-align: center;
         color: #fff;
